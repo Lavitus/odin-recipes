@@ -1,10 +1,44 @@
-/* styles.css */
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .header {
+    font-weight: 500;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#eee, rgb(135, 50, 204));
+        }
+.link1 { 
+    font-size: 33px;
+    background: -webkit-linear-gradient(rgb(49, 112, 206), rgb(117, 150, 211));
+    padding-top: 100px;
+}
+.link2 { 
+    font-size: 33px;
+    background: -webkit-linear-gradient(rgb(49, 112, 206), rgb(117, 150, 211));
+    padding-top: 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 50px;
+}
+    
+.quoteText{
+        font-size: 75px;
+        background: -webkit-linear-gradient(rgb(78, 187, 190), rgb(228, 204, 68));
+    }
 
-div * {
-    color: white;
-    background-color: black 
+.quoteText,
+.header,
+.link1 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center
 }
 
-p {
-    color:red;
-}
+
+body {
+    margin: 0;
+  }
+  .quoteText img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
